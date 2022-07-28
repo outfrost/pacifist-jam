@@ -4,6 +4,7 @@ func _ready() -> void:
 	connect("finished", self, "go")
 	yield(get_tree().create_timer(1.0), "timeout")
 	play()
+	$"../TextureRect".show()
 
 func go():
 	yield(get_tree().create_timer(1.0), "timeout")

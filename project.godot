@@ -34,6 +34,8 @@ _global_script_class_icons={
 
 config/name="Pacifist Jam"
 run/main_scene="res://game/splash/Splash.tscn"
+boot_splash/image="res://game/splash/empty.png"
+boot_splash/use_filter=false
 config/icon="res://icon.png"
 
 [autoload]
