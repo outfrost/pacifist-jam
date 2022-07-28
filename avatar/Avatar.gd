@@ -2,12 +2,12 @@ extends KinematicBody
 
 const SPEED: float = 5.0
 const ACCEL: float = 10.0
-const JUMP_SPEED: float = 7.0
+const JUMP_SPEED: float = 6.0
 const GRAVITY: float = 10.0
 
 onready var camera: Camera = $Camera
 
-var mouse_sens: float = 1.0
+var mouse_sens: float = 1.2
 var velocity: Vector3 = Vector3.ZERO
 
 func _physics_process(delta: float) -> void:
