@@ -29,6 +29,8 @@ func _process(delta: float) -> void:
 
 func on_start_game() -> void:
 	main_menu.hide()
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func back_to_menu() -> void:
 	main_menu.show()
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
