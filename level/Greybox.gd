@@ -4,6 +4,7 @@ extends CollisionShape
 const MESH_SCENE = preload("res://level/GreyboxMeshInstance.tscn")
 
 export var extents: Vector3 = Vector3(0.5, 0.5, 0.5) setget set_extents
+export var material: Material setget set_material
 
 onready var mesh_instance = get_node_or_null("GreyboxMeshInstance")
 onready var body = $StaticBody
@@ -21,6 +22,7 @@ func _ready() -> void:
 	mesh_instance = MESH_SCENE.instance()
 	add_child(mesh_instance)
 	mesh_instance.mesh = mesh_instance.mesh.duplicate()
+	mesh_instance.material_override = material
 
 	if Engine.editor_hint:
 		shape = BoxShape.new()
@@ -44,3 +46,8 @@ func set_extents(value: Vector3):
 	if mesh_instance:
 		(mesh_instance.mesh as CubeMesh).size = value * 2.0
 	property_list_changed_notify()
+
+func set_material(value: Material):
+	material = value
+	if mesh_instance:
+		mesh_instance.material_override = material

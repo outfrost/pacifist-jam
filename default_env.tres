@@ -5,3 +5,8 @@
 [resource]
 background_mode = 2
 background_sky = SubResource( 1 )
+ssao_enabled = true
+ssao_intensity = 0.6
+ssao_radius2 = 0.25
+ssao_intensity2 = 10.0
+ssao_light_affect = 0.5
