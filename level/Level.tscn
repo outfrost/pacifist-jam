@@ -1,155 +1,156 @@
-[gd_scene load_steps=55 format=2]
+[gd_scene load_steps=56 format=2]
 
 [ext_resource path="res://level/Greybox.tscn" type="PackedScene" id=1]
 [ext_resource path="res://level/Greybox_mat_platform.tres" type="Material" id=2]
 [ext_resource path="res://level/Greybox_mat_ground.tres" type="Material" id=3]
 [ext_resource path="res://level/Greybox_mat_handlebar.tres" type="Material" id=4]
-
-[sub_resource type="BoxShape" id=1]
-extents = Vector3( 4, 10, 5 )
-
-[sub_resource type="BoxShape" id=3]
-extents = Vector3( 0.4, 0.7, 4 )
-
-[sub_resource type="BoxShape" id=4]
-extents = Vector3( 0.1, 1, 0.25 )
-
-[sub_resource type="BoxShape" id=9]
-extents = Vector3( 0.1, 1, 0.25 )
-
-[sub_resource type="BoxShape" id=13]
-extents = Vector3( 0.1, 1, 0.25 )
-
-[sub_resource type="BoxShape" id=8]
-extents = Vector3( 0.1, 0.2, 4 )
-
-[sub_resource type="BoxShape" id=10]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=11]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=14]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=12]
-extents = Vector3( 0.1, 0.2, 4 )
-
-[sub_resource type="BoxShape" id=15]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=16]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=17]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=18]
-extents = Vector3( 0.1, 0.2, 4 )
-
-[sub_resource type="BoxShape" id=19]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=20]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=21]
-extents = Vector3( 0.1, 0.3, 0.25 )
-
-[sub_resource type="BoxShape" id=22]
-extents = Vector3( 0.1, 0.2, 4 )
-
-[sub_resource type="BoxShape" id=23]
-extents = Vector3( 7, 8, 5 )
-
-[sub_resource type="BoxShape" id=25]
-extents = Vector3( 6, 3, 10 )
-
-[sub_resource type="BoxShape" id=31]
-extents = Vector3( 4.5, 5, 10 )
-
-[sub_resource type="BoxShape" id=35]
-extents = Vector3( 1.5, 0.2, 10 )
-
-[sub_resource type="BoxShape" id=36]
-extents = Vector3( 1.5, 0.2, 10 )
-
-[sub_resource type="BoxShape" id=32]
-extents = Vector3( 1.5, 0.5, 0.1 )
-
-[sub_resource type="BoxShape" id=42]
-extents = Vector3( 0.25, 1.5, 0.1 )
-
-[sub_resource type="BoxShape" id=43]
-extents = Vector3( 1.5, 0.5, 0.1 )
-
-[sub_resource type="BoxShape" id=44]
-extents = Vector3( 0.25, 1.05, 0.1 )
-
-[sub_resource type="BoxShape" id=33]
-extents = Vector3( 1.5, 2, 0.1 )
-
-[sub_resource type="BoxShape" id=34]
-extents = Vector3( 1.5, 2, 0.1 )
-
-[sub_resource type="BoxShape" id=26]
-extents = Vector3( 7, 10, 7 )
-
-[sub_resource type="BoxShape" id=27]
-extents = Vector3( 7, 10, 7 )
-
-[sub_resource type="BoxShape" id=28]
-extents = Vector3( 4.5, 5, 4 )
-
-[sub_resource type="BoxShape" id=29]
-extents = Vector3( 4.5, 7, 4 )
-
-[sub_resource type="BoxShape" id=47]
-extents = Vector3( 0.15, 0.1, 1 )
-
-[sub_resource type="BoxShape" id=48]
-extents = Vector3( 0.15, 0.1, 0.85 )
-
-[sub_resource type="BoxShape" id=49]
-extents = Vector3( 0.15, 0.1, 1 )
-
-[sub_resource type="BoxShape" id=50]
-extents = Vector3( 0.15, 0.1, 0.85 )
-
-[sub_resource type="BoxShape" id=37]
-extents = Vector3( 4.5, 7.5, 3.25 )
-
-[sub_resource type="BoxShape" id=30]
-extents = Vector3( 1.5, 8, 2.8 )
-
-[sub_resource type="BoxShape" id=2]
-extents = Vector3( 0.75, 0.05, 2.5 )
-
-[sub_resource type="BoxShape" id=38]
-extents = Vector3( 0.75, 0.05, 4.05 )
-
-[sub_resource type="BoxShape" id=45]
-extents = Vector3( 0.75, 0.05, 2.5 )
-
-[sub_resource type="BoxShape" id=39]
-extents = Vector3( 1.75, 0.05, 0.5 )
-
-[sub_resource type="BoxShape" id=46]
-extents = Vector3( 1.75, 0.05, 0.5 )
-
-[sub_resource type="BoxShape" id=24]
-extents = Vector3( 0.75, 0.05, 6.5 )
+[ext_resource path="res://avatar/Avatar.tscn" type="PackedScene" id=5]
 
 [sub_resource type="BoxShape" id=41]
-extents = Vector3( 0.3, 0.05, 3.75 )
+extents = Vector3( 4, 10, 5 )
 
-[sub_resource type="BoxShape" id=52]
-extents = Vector3( 2, 0.05, 0.6 )
+[sub_resource type="BoxShape" id=42]
+extents = Vector3( 0.4, 0.7, 4 )
 
-[sub_resource type="BoxShape" id=53]
-extents = Vector3( 3, 0.05, 0.6 )
+[sub_resource type="BoxShape" id=43]
+extents = Vector3( 0.1, 1, 0.25 )
+
+[sub_resource type="BoxShape" id=44]
+extents = Vector3( 0.1, 1, 0.25 )
+
+[sub_resource type="BoxShape" id=45]
+extents = Vector3( 0.1, 1, 0.25 )
+
+[sub_resource type="BoxShape" id=46]
+extents = Vector3( 0.1, 0.2, 4 )
+
+[sub_resource type="BoxShape" id=47]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=48]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=49]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=50]
+extents = Vector3( 0.1, 0.2, 4 )
 
 [sub_resource type="BoxShape" id=51]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=52]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=53]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=54]
+extents = Vector3( 0.1, 0.2, 4 )
+
+[sub_resource type="BoxShape" id=55]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=56]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=57]
+extents = Vector3( 0.1, 0.3, 0.25 )
+
+[sub_resource type="BoxShape" id=58]
+extents = Vector3( 0.1, 0.2, 4 )
+
+[sub_resource type="BoxShape" id=59]
+extents = Vector3( 7, 8, 5 )
+
+[sub_resource type="BoxShape" id=60]
+extents = Vector3( 6, 3, 10 )
+
+[sub_resource type="BoxShape" id=61]
+extents = Vector3( 4.5, 5, 10 )
+
+[sub_resource type="BoxShape" id=62]
+extents = Vector3( 1.5, 0.2, 10 )
+
+[sub_resource type="BoxShape" id=63]
+extents = Vector3( 1.5, 0.2, 10 )
+
+[sub_resource type="BoxShape" id=64]
+extents = Vector3( 1.5, 0.5, 0.1 )
+
+[sub_resource type="BoxShape" id=65]
+extents = Vector3( 0.25, 1.5, 0.1 )
+
+[sub_resource type="BoxShape" id=66]
+extents = Vector3( 1.5, 0.5, 0.1 )
+
+[sub_resource type="BoxShape" id=67]
+extents = Vector3( 0.25, 1.05, 0.1 )
+
+[sub_resource type="BoxShape" id=68]
+extents = Vector3( 1.5, 2, 0.1 )
+
+[sub_resource type="BoxShape" id=69]
+extents = Vector3( 1.5, 2, 0.1 )
+
+[sub_resource type="BoxShape" id=70]
+extents = Vector3( 7, 10, 7 )
+
+[sub_resource type="BoxShape" id=71]
+extents = Vector3( 7, 10, 7 )
+
+[sub_resource type="BoxShape" id=72]
+extents = Vector3( 4.5, 5, 4 )
+
+[sub_resource type="BoxShape" id=73]
+extents = Vector3( 4.5, 7, 4 )
+
+[sub_resource type="BoxShape" id=74]
+extents = Vector3( 0.15, 0.1, 1 )
+
+[sub_resource type="BoxShape" id=75]
+extents = Vector3( 0.15, 0.1, 0.85 )
+
+[sub_resource type="BoxShape" id=76]
+extents = Vector3( 0.15, 0.1, 1 )
+
+[sub_resource type="BoxShape" id=77]
+extents = Vector3( 0.15, 0.1, 0.85 )
+
+[sub_resource type="BoxShape" id=78]
+extents = Vector3( 4.5, 7.5, 3.25 )
+
+[sub_resource type="BoxShape" id=79]
+extents = Vector3( 1.5, 8, 2.8 )
+
+[sub_resource type="BoxShape" id=80]
+extents = Vector3( 0.75, 0.05, 2.5 )
+
+[sub_resource type="BoxShape" id=81]
+extents = Vector3( 0.75, 0.05, 4.05 )
+
+[sub_resource type="BoxShape" id=82]
+extents = Vector3( 0.75, 0.05, 2.5 )
+
+[sub_resource type="BoxShape" id=83]
+extents = Vector3( 1.75, 0.05, 0.5 )
+
+[sub_resource type="BoxShape" id=84]
+extents = Vector3( 1.75, 0.05, 0.5 )
+
+[sub_resource type="BoxShape" id=85]
+extents = Vector3( 0.75, 0.05, 6.5 )
+
+[sub_resource type="BoxShape" id=86]
+extents = Vector3( 0.3, 0.05, 3.75 )
+
+[sub_resource type="BoxShape" id=87]
+extents = Vector3( 2, 0.05, 0.6 )
+
+[sub_resource type="BoxShape" id=88]
+extents = Vector3( 3, 0.05, 0.6 )
+
+[sub_resource type="BoxShape" id=89]
 extents = Vector3( 0.1, 5.25, 0.1 )
 
 [sub_resource type="QuadMesh" id=40]
@@ -158,259 +159,259 @@ size = Vector2( 256, 256 )
 
 [node name="Level" type="Spatial"]
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 9.5, 2 )
+[node name="Avatar" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 8.25, 0 )
 
 [node name="Buildings" type="Spatial" parent="."]
 
 [node name="Greybox" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.8, 10, -1.5 )
-shape = SubResource( 1 )
+shape = SubResource( 41 )
 extents = Vector3( 4, 10, 5 )
 
 [node name="Greybox3" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, -1.3, -1 )
-shape = SubResource( 3 )
+shape = SubResource( 42 )
 extents = Vector3( 0.4, 0.7, 4 )
 
 [node name="Greybox4" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, -4.75 )
-shape = SubResource( 4 )
+shape = SubResource( 43 )
 extents = Vector3( 0.1, 1, 0.25 )
 
 [node name="Greybox5" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, 2.75 )
-shape = SubResource( 9 )
+shape = SubResource( 44 )
 extents = Vector3( 0.1, 1, 0.25 )
 
 [node name="Greybox10" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, -1 )
-shape = SubResource( 13 )
+shape = SubResource( 45 )
 extents = Vector3( 0.1, 1, 0.25 )
 
 [node name="Greybox6" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 1.6, -1 )
-shape = SubResource( 8 )
+shape = SubResource( 46 )
 extents = Vector3( 0.1, 0.2, 4 )
 
 [node name="Greybox7" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, -4.75 )
-shape = SubResource( 10 )
+shape = SubResource( 47 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox8" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, 2.75 )
-shape = SubResource( 11 )
+shape = SubResource( 48 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox11" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, -1 )
-shape = SubResource( 14 )
+shape = SubResource( 49 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox9" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.6, -1 )
-shape = SubResource( 12 )
+shape = SubResource( 50 )
 extents = Vector3( 0.1, 0.2, 4 )
 
 [node name="Greybox12" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, -4.75 )
-shape = SubResource( 15 )
+shape = SubResource( 51 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox13" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, 2.75 )
-shape = SubResource( 16 )
+shape = SubResource( 52 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox14" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, -1 )
-shape = SubResource( 17 )
+shape = SubResource( 53 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox15" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.6, -1 )
-shape = SubResource( 18 )
+shape = SubResource( 54 )
 extents = Vector3( 0.1, 0.2, 4 )
 
 [node name="Greybox16" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, -4.75 )
-shape = SubResource( 19 )
+shape = SubResource( 55 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox17" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, 2.75 )
-shape = SubResource( 20 )
+shape = SubResource( 56 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox18" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, -1 )
-shape = SubResource( 21 )
+shape = SubResource( 57 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 
 [node name="Greybox19" parent="Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.6, -1 )
-shape = SubResource( 22 )
+shape = SubResource( 58 )
 extents = Vector3( 0.1, 0.2, 4 )
 
 [node name="Greybox3" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 8, -1 )
-shape = SubResource( 23 )
+shape = SubResource( 59 )
 extents = Vector3( 7, 8, 5 )
 
 [node name="Greybox4" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 3, -18.5 )
-shape = SubResource( 25 )
+shape = SubResource( 60 )
 extents = Vector3( 6, 3, 10 )
 
 [node name="Greybox10" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 11, -18.5 )
-shape = SubResource( 31 )
+shape = SubResource( 61 )
 extents = Vector3( 4.5, 5, 10 )
 
 [node name="Greybox14" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.2, -18.5 )
-shape = SubResource( 35 )
+shape = SubResource( 62 )
 extents = Vector3( 1.5, 0.2, 10 )
 
 [node name="Greybox15" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 13.7, -18.5 )
-shape = SubResource( 36 )
+shape = SubResource( 63 )
 extents = Vector3( 1.5, 0.2, 10 )
 
 [node name="Greybox11" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 6.5, -18.5 )
-shape = SubResource( 32 )
+shape = SubResource( 64 )
 extents = Vector3( 1.5, 0.5, 0.1 )
 
 [node name="Greybox17" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 8.5, -18.5 )
-shape = SubResource( 42 )
+shape = SubResource( 65 )
 extents = Vector3( 0.25, 1.5, 0.1 )
 
 [node name="Greybox18" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.9, -18.5 )
-shape = SubResource( 43 )
+shape = SubResource( 66 )
 extents = Vector3( 1.5, 0.5, 0.1 )
 
 [node name="Greybox19" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 12.45, -18.5 )
-shape = SubResource( 44 )
+shape = SubResource( 67 )
 extents = Vector3( 0.25, 1.05, 0.1 )
 
 [node name="Greybox12" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -8.6 )
-shape = SubResource( 33 )
+shape = SubResource( 68 )
 extents = Vector3( 1.5, 2, 0.1 )
 
 [node name="Greybox13" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -28.4 )
-shape = SubResource( 34 )
+shape = SubResource( 69 )
 extents = Vector3( 1.5, 2, 0.1 )
 
 [node name="Greybox5" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 10, -35.5 )
-shape = SubResource( 26 )
+shape = SubResource( 70 )
 extents = Vector3( 7, 10, 7 )
 
 [node name="Greybox6" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 10, -36 )
-shape = SubResource( 27 )
+shape = SubResource( 71 )
 extents = Vector3( 7, 10, 7 )
 
 [node name="Greybox7" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 5, -20.1 )
-shape = SubResource( 28 )
+shape = SubResource( 72 )
 extents = Vector3( 4.5, 5, 4 )
 
 [node name="Greybox8" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 7, -18 )
-shape = SubResource( 29 )
+shape = SubResource( 73 )
 extents = Vector3( 4.5, 7, 4 )
 
 [node name="Greybox20" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 10.5, -22.95 )
-shape = SubResource( 47 )
+shape = SubResource( 74 )
 extents = Vector3( 0.15, 0.1, 1 )
 
 [node name="Greybox21" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 10.5, -23.8 )
-shape = SubResource( 48 )
+shape = SubResource( 75 )
 extents = Vector3( 0.15, 0.1, 0.85 )
 
 [node name="Greybox22" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 3.5, -22.95 )
-shape = SubResource( 49 )
+shape = SubResource( 76 )
 extents = Vector3( 0.15, 0.1, 1 )
 
 [node name="Greybox23" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 3.5, -23.8 )
-shape = SubResource( 50 )
+shape = SubResource( 77 )
 extents = Vector3( 0.15, 0.1, 0.85 )
 
 [node name="Greybox16" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 7.5, -10.75 )
-shape = SubResource( 37 )
+shape = SubResource( 78 )
 extents = Vector3( 4.5, 7.5, 3.25 )
 
 [node name="Greybox9" parent="Buildings" instance=ExtResource( 1 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 4.05, 8, -21.05 )
-shape = SubResource( 30 )
+shape = SubResource( 79 )
 extents = Vector3( 1.5, 8, 2.8 )
 
 [node name="Platforms" type="Spatial" parent="."]
 
 [node name="Greybox2" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 8, -1.1 )
-shape = SubResource( 2 )
+shape = SubResource( 80 )
 extents = Vector3( 0.75, 0.05, 2.5 )
 material = ExtResource( 2 )
 
 [node name="Greybox4" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 14, -17.95 )
-shape = SubResource( 38 )
+shape = SubResource( 81 )
 extents = Vector3( 0.75, 0.05, 4.05 )
 material = ExtResource( 2 )
 
 [node name="Greybox7" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 6, -16.4 )
-shape = SubResource( 45 )
+shape = SubResource( 82 )
 extents = Vector3( 0.75, 0.05, 2.5 )
 material = ExtResource( 2 )
 
 [node name="Greybox5" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 14, -13.4 )
-shape = SubResource( 39 )
+shape = SubResource( 83 )
 extents = Vector3( 1.75, 0.05, 0.5 )
 material = ExtResource( 2 )
 
 [node name="Greybox8" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 6, -13.4 )
-shape = SubResource( 46 )
+shape = SubResource( 84 )
 extents = Vector3( 1.75, 0.05, 0.5 )
 material = ExtResource( 2 )
 
 [node name="Greybox3" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.65, 13.7, -8.6 )
-shape = SubResource( 24 )
+shape = SubResource( 85 )
 extents = Vector3( 0.75, 0.05, 6.5 )
 material = ExtResource( 2 )
 
 [node name="Greybox6" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -0.75, 5.95, -8.9 )
-shape = SubResource( 41 )
+shape = SubResource( 86 )
 extents = Vector3( 0.3, 0.05, 3.75 )
 material = ExtResource( 2 )
 
 [node name="Greybox9" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.65, 9.5, -28.3 )
-shape = SubResource( 52 )
+shape = SubResource( 87 )
 extents = Vector3( 2, 0.05, 0.6 )
 material = ExtResource( 2 )
 
 [node name="Greybox10" parent="Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65, 4, -28.3 )
-shape = SubResource( 53 )
+shape = SubResource( 88 )
 extents = Vector3( 3, 0.05, 0.6 )
 material = ExtResource( 2 )
 
@@ -418,7 +419,7 @@ material = ExtResource( 2 )
 
 [node name="Greybox" parent="Handlebars" instance=ExtResource( 1 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1.25, 5.2, -23.8 )
-shape = SubResource( 51 )
+shape = SubResource( 89 )
 extents = Vector3( 0.1, 5.25, 0.1 )
 material = ExtResource( 4 )
 
@@ -426,6 +427,13 @@ material = ExtResource( 4 )
 
 [node name="OmniLight" type="OmniLight" parent="Lights"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 8.5, -26.5 )
+light_energy = 2.0
+light_indirect_energy = 2.0
+shadow_enabled = true
+omni_range = 15.0
+
+[node name="OmniLight2" type="OmniLight" parent="Lights"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 8, -10 )
 light_energy = 2.0
 light_indirect_energy = 2.0
 shadow_enabled = true
