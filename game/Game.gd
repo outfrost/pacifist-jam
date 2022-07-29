@@ -9,6 +9,7 @@ extends Node
 
 onready var main_menu: Control = $UI/MainMenu
 onready var transition_screen: TransitionScreen = $UI/TransitionScreen
+onready var level = $Level
 
 var debug: Reference
 
@@ -30,7 +31,9 @@ func _process(delta: float) -> void:
 func on_start_game() -> void:
 	main_menu.hide()
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	level.start()
 
 func back_to_menu() -> void:
-	main_menu.show()
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	level.stop()
+	main_menu.show()

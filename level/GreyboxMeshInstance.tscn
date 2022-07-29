@@ -7,5 +7,7 @@ material = ExtResource( 1 )
 size = Vector3( 1, 1, 1 )
 
 [node name="GreyboxMeshInstance" type="MeshInstance"]
+use_in_baked_light = true
+generate_lightmap = false
 mesh = SubResource( 1 )
 material/0 = null
