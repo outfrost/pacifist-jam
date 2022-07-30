@@ -160,7 +160,7 @@ extents = Vector3( 3, 0.05, 0.6 )
 [sub_resource type="BoxShape" id=289]
 extents = Vector3( 0.1, 5.25, 0.1 )
 
-[sub_resource type="ArrayMesh" id=190]
+[sub_resource type="ArrayMesh" id=290]
 lightmap_size_hint = Vector2( 2570, 1354 )
 surfaces/0 = {
 "aabb": AABB( -128.5, -1, -128, 257, 2.00001, 256 ),
@@ -175,7 +175,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=191]
+[sub_resource type="ArrayMesh" id=291]
 lightmap_size_hint = Vector2( 46, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.4, -0.7, -4, 0.8, 1.40001, 8.00001 ),
@@ -190,7 +190,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=192]
+[sub_resource type="ArrayMesh" id=292]
 lightmap_size_hint = Vector2( 18, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -1, -0.25, 0.2, 2.00001, 0.50001 ),
@@ -205,7 +205,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=193]
+[sub_resource type="ArrayMesh" id=293]
 lightmap_size_hint = Vector2( 18, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -1, -0.25, 0.2, 2.00001, 0.50001 ),
@@ -220,7 +220,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=194]
+[sub_resource type="ArrayMesh" id=294]
 lightmap_size_hint = Vector2( 18, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -1, -0.25, 0.2, 2.00001, 0.50001 ),
@@ -235,7 +235,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=195]
+[sub_resource type="ArrayMesh" id=295]
 lightmap_size_hint = Vector2( 26, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.2, -4, 0.2, 0.40001, 8.00001 ),
@@ -250,7 +250,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=196]
+[sub_resource type="ArrayMesh" id=296]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -265,7 +265,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=197]
+[sub_resource type="ArrayMesh" id=297]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -280,7 +280,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=198]
+[sub_resource type="ArrayMesh" id=298]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -295,7 +295,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=199]
+[sub_resource type="ArrayMesh" id=299]
 lightmap_size_hint = Vector2( 26, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.2, -4, 0.2, 0.40001, 8.00001 ),
@@ -310,7 +310,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=200]
+[sub_resource type="ArrayMesh" id=300]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -325,7 +325,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=201]
+[sub_resource type="ArrayMesh" id=301]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -340,7 +340,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=202]
+[sub_resource type="ArrayMesh" id=302]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -355,7 +355,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=203]
+[sub_resource type="ArrayMesh" id=303]
 lightmap_size_hint = Vector2( 26, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.2, -4, 0.2, 0.40001, 8.00001 ),
@@ -370,7 +370,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=204]
+[sub_resource type="ArrayMesh" id=304]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -385,7 +385,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=205]
+[sub_resource type="ArrayMesh" id=305]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -400,7 +400,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=206]
+[sub_resource type="ArrayMesh" id=306]
 lightmap_size_hint = Vector2( 14, 14 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.3, -0.25, 0.2, 0.60001, 0.50001 ),
@@ -415,7 +415,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=207]
+[sub_resource type="ArrayMesh" id=307]
 lightmap_size_hint = Vector2( 26, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -0.2, -4, 0.2, 0.40001, 8.00001 ),
@@ -430,7 +430,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=208]
+[sub_resource type="ArrayMesh" id=308]
 lightmap_size_hint = Vector2( 194, 158 )
 surfaces/0 = {
 "aabb": AABB( -4, -10, -5, 8, 20, 10 ),
@@ -445,7 +445,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=209]
+[sub_resource type="ArrayMesh" id=309]
 lightmap_size_hint = Vector2( 194, 166 )
 surfaces/0 = {
 "aabb": AABB( -7, -8, -5, 14, 16, 10 ),
@@ -460,7 +460,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=210]
+[sub_resource type="ArrayMesh" id=310]
 lightmap_size_hint = Vector2( 170, 174 )
 surfaces/0 = {
 "aabb": AABB( -6, -3, -10, 12, 6.00001, 20 ),
@@ -475,7 +475,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=211]
+[sub_resource type="ArrayMesh" id=311]
 lightmap_size_hint = Vector2( 158, 198 )
 surfaces/0 = {
 "aabb": AABB( -4.5, -5, -10, 9, 10, 20 ),
@@ -490,7 +490,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=212]
+[sub_resource type="ArrayMesh" id=312]
 lightmap_size_hint = Vector2( 62, 102 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -0.2, -10, 3, 0.40001, 20 ),
@@ -505,7 +505,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=213]
+[sub_resource type="ArrayMesh" id=313]
 lightmap_size_hint = Vector2( 62, 102 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -0.2, -10, 3, 0.40001, 20 ),
@@ -520,7 +520,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=214]
+[sub_resource type="ArrayMesh" id=314]
 lightmap_size_hint = Vector2( 22, 22 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -0.5, -0.1, 3, 1.00001, 0.20001 ),
@@ -535,7 +535,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=215]
+[sub_resource type="ArrayMesh" id=315]
 lightmap_size_hint = Vector2( 22, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.25, -1.5, -0.1, 0.5, 3.00001, 0.20001 ),
@@ -550,7 +550,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=216]
+[sub_resource type="ArrayMesh" id=316]
 lightmap_size_hint = Vector2( 22, 22 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -0.5, -0.1, 3, 1.00001, 0.20001 ),
@@ -565,7 +565,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=217]
+[sub_resource type="ArrayMesh" id=317]
 lightmap_size_hint = Vector2( 22, 18 )
 surfaces/0 = {
 "aabb": AABB( -0.25, -1.05, -0.1, 0.5, 2.10001, 0.20001 ),
@@ -580,7 +580,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=218]
+[sub_resource type="ArrayMesh" id=318]
 lightmap_size_hint = Vector2( 34, 38 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -2, -0.1, 3, 4.00001, 0.20001 ),
@@ -595,7 +595,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=219]
+[sub_resource type="ArrayMesh" id=319]
 lightmap_size_hint = Vector2( 34, 38 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -2, -0.1, 3, 4.00001, 0.20001 ),
@@ -610,7 +610,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=220]
+[sub_resource type="ArrayMesh" id=320]
 lightmap_size_hint = Vector2( 258, 226 )
 surfaces/0 = {
 "aabb": AABB( -7, -10, -7, 14, 20, 14 ),
@@ -625,7 +625,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=221]
+[sub_resource type="ArrayMesh" id=321]
 lightmap_size_hint = Vector2( 258, 226 )
 surfaces/0 = {
 "aabb": AABB( -7, -10, -7, 14, 20, 14 ),
@@ -640,7 +640,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=222]
+[sub_resource type="ArrayMesh" id=322]
 lightmap_size_hint = Vector2( 154, 98 )
 surfaces/0 = {
 "aabb": AABB( -4.5, -5, -4, 9, 10, 8.00001 ),
@@ -655,7 +655,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=223]
+[sub_resource type="ArrayMesh" id=323]
 lightmap_size_hint = Vector2( 162, 138 )
 surfaces/0 = {
 "aabb": AABB( -4.5, -7, -4, 9, 14, 8.00001 ),
@@ -670,7 +670,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=224]
+[sub_resource type="ArrayMesh" id=324]
 lightmap_size_hint = Vector2( 18, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.15, -0.1, -1, 0.3, 0.20001, 2.00001 ),
@@ -685,7 +685,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=225]
+[sub_resource type="ArrayMesh" id=325]
 lightmap_size_hint = Vector2( 18, 18 )
 surfaces/0 = {
 "aabb": AABB( -0.15, -0.1, -0.85, 0.3, 0.20001, 1.70001 ),
@@ -700,7 +700,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=226]
+[sub_resource type="ArrayMesh" id=326]
 lightmap_size_hint = Vector2( 18, 22 )
 surfaces/0 = {
 "aabb": AABB( -0.15, -0.1, -1, 0.3, 0.20001, 2.00001 ),
@@ -715,7 +715,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=227]
+[sub_resource type="ArrayMesh" id=327]
 lightmap_size_hint = Vector2( 18, 18 )
 surfaces/0 = {
 "aabb": AABB( -0.15, -0.1, -0.85, 0.3, 0.20001, 1.70001 ),
@@ -730,7 +730,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=228]
+[sub_resource type="ArrayMesh" id=328]
 lightmap_size_hint = Vector2( 150, 130 )
 surfaces/0 = {
 "aabb": AABB( -4.5, -7.5, -3.25, 9, 15, 6.50001 ),
@@ -745,7 +745,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=229]
+[sub_resource type="ArrayMesh" id=329]
 lightmap_size_hint = Vector2( 102, 102 )
 surfaces/0 = {
 "aabb": AABB( -1.5, -8, -2.8, 3, 16, 5.60001 ),
@@ -760,7 +760,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=230]
+[sub_resource type="ArrayMesh" id=330]
 lightmap_size_hint = Vector2( 30, 30 )
 surfaces/0 = {
 "aabb": AABB( -0.75, -0.05, -2.5, 1.5, 0.10001, 5.00001 ),
@@ -775,7 +775,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=231]
+[sub_resource type="ArrayMesh" id=331]
 lightmap_size_hint = Vector2( 34, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.75, -0.05, -4.05, 1.5, 0.10001, 8.10001 ),
@@ -790,7 +790,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=232]
+[sub_resource type="ArrayMesh" id=332]
 lightmap_size_hint = Vector2( 30, 30 )
 surfaces/0 = {
 "aabb": AABB( -0.75, -0.05, -2.5, 1.5, 0.10001, 5.00001 ),
@@ -805,7 +805,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=233]
+[sub_resource type="ArrayMesh" id=333]
 lightmap_size_hint = Vector2( 26, 22 )
 surfaces/0 = {
 "aabb": AABB( -1.75, -0.05, -0.5, 3.5, 0.10001, 1.00001 ),
@@ -820,7 +820,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=234]
+[sub_resource type="ArrayMesh" id=334]
 lightmap_size_hint = Vector2( 26, 22 )
 surfaces/0 = {
 "aabb": AABB( -1.75, -0.05, -0.5, 3.5, 0.10001, 1.00001 ),
@@ -835,7 +835,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=235]
+[sub_resource type="ArrayMesh" id=335]
 lightmap_size_hint = Vector2( 70, 34 )
 surfaces/0 = {
 "aabb": AABB( -0.75, -0.05, -6.5, 1.5, 0.10001, 13 ),
@@ -850,7 +850,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=236]
+[sub_resource type="ArrayMesh" id=336]
 lightmap_size_hint = Vector2( 26, 42 )
 surfaces/0 = {
 "aabb": AABB( -0.3, -0.05, -3.75, 0.6, 0.10001, 7.50001 ),
@@ -865,7 +865,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=237]
+[sub_resource type="ArrayMesh" id=337]
 lightmap_size_hint = Vector2( 30, 26 )
 surfaces/0 = {
 "aabb": AABB( -2, -0.05, -0.6, 4, 0.10001, 1.20001 ),
@@ -880,7 +880,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=238]
+[sub_resource type="ArrayMesh" id=338]
 lightmap_size_hint = Vector2( 34, 34 )
 surfaces/0 = {
 "aabb": AABB( -3, -0.05, -0.6, 6, 0.10001, 1.20001 ),
@@ -895,7 +895,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=239]
+[sub_resource type="ArrayMesh" id=339]
 lightmap_size_hint = Vector2( 54, 18 )
 surfaces/0 = {
 "aabb": AABB( -0.1, -5.25, -0.1, 0.2, 10.5, 0.20001 ),
@@ -1252,265 +1252,315 @@ baked = true
 
 [node name="_BakeRoot" type="Spatial" parent="BakedGeometry"]
 
-[node name="BakedMeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -16 )
 material_override = ExtResource( 3 )
-mesh = SubResource( 190 )
+use_in_baked_light = true
+mesh = SubResource( 290 )
 material/0 = null
 
-[node name="BakedMeshInstance2" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance2" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4, 8.7, -2.5 )
-mesh = SubResource( 191 )
+use_in_baked_light = true
+mesh = SubResource( 291 )
 material/0 = null
 
-[node name="BakedMeshInstance3" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance3" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, -6.25 )
-mesh = SubResource( 192 )
+use_in_baked_light = true
+mesh = SubResource( 292 )
 material/0 = null
 
-[node name="BakedMeshInstance4" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance4" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, 1.25 )
-mesh = SubResource( 193 )
+use_in_baked_light = true
+mesh = SubResource( 293 )
 material/0 = null
 
-[node name="BakedMeshInstance5" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance5" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, -2.5 )
-mesh = SubResource( 194 )
+use_in_baked_light = true
+mesh = SubResource( 294 )
 material/0 = null
 
-[node name="BakedMeshInstance6" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance6" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 11.6, -2.5 )
-mesh = SubResource( 195 )
+use_in_baked_light = true
+mesh = SubResource( 295 )
 material/0 = null
 
-[node name="BakedMeshInstance7" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance7" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, -6.25 )
-mesh = SubResource( 196 )
+use_in_baked_light = true
+mesh = SubResource( 296 )
 material/0 = null
 
-[node name="BakedMeshInstance8" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance8" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, 1.25 )
-mesh = SubResource( 197 )
+use_in_baked_light = true
+mesh = SubResource( 297 )
 material/0 = null
 
-[node name="BakedMeshInstance9" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance9" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, -2.5 )
-mesh = SubResource( 198 )
+use_in_baked_light = true
+mesh = SubResource( 298 )
 material/0 = null
 
-[node name="BakedMeshInstance10" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance10" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.6, -2.5 )
-mesh = SubResource( 199 )
+use_in_baked_light = true
+mesh = SubResource( 299 )
 material/0 = null
 
-[node name="BakedMeshInstance11" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance11" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, -6.25 )
-mesh = SubResource( 200 )
+use_in_baked_light = true
+mesh = SubResource( 300 )
 material/0 = null
 
-[node name="BakedMeshInstance12" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance12" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, 1.25 )
-mesh = SubResource( 201 )
+use_in_baked_light = true
+mesh = SubResource( 301 )
 material/0 = null
 
-[node name="BakedMeshInstance13" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance13" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, -2.5 )
-mesh = SubResource( 202 )
+use_in_baked_light = true
+mesh = SubResource( 302 )
 material/0 = null
 
-[node name="BakedMeshInstance14" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance14" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.6, -2.5 )
-mesh = SubResource( 203 )
+use_in_baked_light = true
+mesh = SubResource( 303 )
 material/0 = null
 
-[node name="BakedMeshInstance15" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance15" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, -6.25 )
-mesh = SubResource( 204 )
+use_in_baked_light = true
+mesh = SubResource( 304 )
 material/0 = null
 
-[node name="BakedMeshInstance16" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance16" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, 1.25 )
-mesh = SubResource( 205 )
+use_in_baked_light = true
+mesh = SubResource( 305 )
 material/0 = null
 
-[node name="BakedMeshInstance17" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance17" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, -2.5 )
-mesh = SubResource( 206 )
+use_in_baked_light = true
+mesh = SubResource( 306 )
 material/0 = null
 
-[node name="BakedMeshInstance18" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance18" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.6, -2.5 )
-mesh = SubResource( 207 )
+use_in_baked_light = true
+mesh = SubResource( 307 )
 material/0 = null
 
-[node name="BakedMeshInstance19" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance19" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.8, 10, -1.5 )
-mesh = SubResource( 208 )
+use_in_baked_light = true
+mesh = SubResource( 308 )
 material/0 = null
 
-[node name="BakedMeshInstance20" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance20" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 8, -1 )
-mesh = SubResource( 209 )
+use_in_baked_light = true
+mesh = SubResource( 309 )
 material/0 = null
 
-[node name="BakedMeshInstance21" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance21" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 3, -18.5 )
-mesh = SubResource( 210 )
+use_in_baked_light = true
+mesh = SubResource( 310 )
 material/0 = null
 
-[node name="BakedMeshInstance22" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance22" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 11, -18.5 )
-mesh = SubResource( 211 )
+use_in_baked_light = true
+mesh = SubResource( 311 )
 material/0 = null
 
-[node name="BakedMeshInstance23" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance23" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.2, -18.5 )
-mesh = SubResource( 212 )
+use_in_baked_light = true
+mesh = SubResource( 312 )
 material/0 = null
 
-[node name="BakedMeshInstance24" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance24" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 13.7, -18.5 )
-mesh = SubResource( 213 )
+use_in_baked_light = true
+mesh = SubResource( 313 )
 material/0 = null
 
-[node name="BakedMeshInstance25" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance25" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 6.5, -18.5 )
-mesh = SubResource( 214 )
+use_in_baked_light = true
+mesh = SubResource( 314 )
 material/0 = null
 
-[node name="BakedMeshInstance26" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance26" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 8.5, -18.5 )
-mesh = SubResource( 215 )
+use_in_baked_light = true
+mesh = SubResource( 315 )
 material/0 = null
 
-[node name="BakedMeshInstance27" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance27" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.9, -18.5 )
-mesh = SubResource( 216 )
+use_in_baked_light = true
+mesh = SubResource( 316 )
 material/0 = null
 
-[node name="BakedMeshInstance28" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance28" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 12.45, -18.5 )
-mesh = SubResource( 217 )
+use_in_baked_light = true
+mesh = SubResource( 317 )
 material/0 = null
 
-[node name="BakedMeshInstance29" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance29" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -8.6 )
-mesh = SubResource( 218 )
+use_in_baked_light = true
+mesh = SubResource( 318 )
 material/0 = null
 
-[node name="BakedMeshInstance30" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance30" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -28.4 )
-mesh = SubResource( 219 )
+use_in_baked_light = true
+mesh = SubResource( 319 )
 material/0 = null
 
-[node name="BakedMeshInstance31" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance31" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 10, -35.5 )
-mesh = SubResource( 220 )
+use_in_baked_light = true
+mesh = SubResource( 320 )
 material/0 = null
 
-[node name="BakedMeshInstance32" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance32" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 10, -36 )
-mesh = SubResource( 221 )
+use_in_baked_light = true
+mesh = SubResource( 321 )
 material/0 = null
 
-[node name="BakedMeshInstance33" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance33" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 5, -20.1 )
-mesh = SubResource( 222 )
+use_in_baked_light = true
+mesh = SubResource( 322 )
 material/0 = null
 
-[node name="BakedMeshInstance34" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance34" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 7, -18 )
-mesh = SubResource( 223 )
+use_in_baked_light = true
+mesh = SubResource( 323 )
 material/0 = null
 
-[node name="BakedMeshInstance35" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance35" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 10.5, -22.95 )
-mesh = SubResource( 224 )
+use_in_baked_light = true
+mesh = SubResource( 324 )
 material/0 = null
 
-[node name="BakedMeshInstance36" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance36" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 10.5, -23.8 )
-mesh = SubResource( 225 )
+use_in_baked_light = true
+mesh = SubResource( 325 )
 material/0 = null
 
-[node name="BakedMeshInstance37" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance37" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 3.5, -22.95 )
-mesh = SubResource( 226 )
+use_in_baked_light = true
+mesh = SubResource( 326 )
 material/0 = null
 
-[node name="BakedMeshInstance38" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance38" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 3.5, -23.8 )
-mesh = SubResource( 227 )
+use_in_baked_light = true
+mesh = SubResource( 327 )
 material/0 = null
 
-[node name="BakedMeshInstance39" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance39" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 7.5, -10.75 )
-mesh = SubResource( 228 )
+use_in_baked_light = true
+mesh = SubResource( 328 )
 material/0 = null
 
-[node name="BakedMeshInstance40" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance40" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 4.05, 8, -21.05 )
-mesh = SubResource( 229 )
+use_in_baked_light = true
+mesh = SubResource( 329 )
 material/0 = null
 
-[node name="BakedMeshInstance41" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance41" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 8, -1.1 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 230 )
+use_in_baked_light = true
+mesh = SubResource( 330 )
 material/0 = null
 
-[node name="BakedMeshInstance42" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance42" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 14, -17.95 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 231 )
+use_in_baked_light = true
+mesh = SubResource( 331 )
 material/0 = null
 
-[node name="BakedMeshInstance43" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance43" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 6, -16.4 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 232 )
+use_in_baked_light = true
+mesh = SubResource( 332 )
 material/0 = null
 
-[node name="BakedMeshInstance44" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance44" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 14, -13.4 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 233 )
+use_in_baked_light = true
+mesh = SubResource( 333 )
 material/0 = null
 
-[node name="BakedMeshInstance45" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance45" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 6, -13.4 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 234 )
+use_in_baked_light = true
+mesh = SubResource( 334 )
 material/0 = null
 
-[node name="BakedMeshInstance46" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance46" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.65, 13.7, -8.6 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 235 )
+use_in_baked_light = true
+mesh = SubResource( 335 )
 material/0 = null
 
-[node name="BakedMeshInstance47" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance47" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -0.75, 5.95, -8.9 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 236 )
+use_in_baked_light = true
+mesh = SubResource( 336 )
 material/0 = null
 
-[node name="BakedMeshInstance48" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance48" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.65, 9.5, -28.3 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 237 )
+use_in_baked_light = true
+mesh = SubResource( 337 )
 material/0 = null
 
-[node name="BakedMeshInstance49" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance49" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65, 4, -28.3 )
 material_override = ExtResource( 2 )
-mesh = SubResource( 238 )
+use_in_baked_light = true
+mesh = SubResource( 338 )
 material/0 = null
 
-[node name="BakedMeshInstance50" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance50" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1.25, 5.2, -23.8 )
 material_override = ExtResource( 4 )
-mesh = SubResource( 239 )
+use_in_baked_light = true
+mesh = SubResource( 339 )
 material/0 = null
 
 [node name="Lights" type="Spatial" parent="."]

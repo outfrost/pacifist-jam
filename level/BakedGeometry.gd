@@ -5,6 +5,7 @@ const BAKED_MESH_INSTANCE_SCENE = preload("res://level/BakedMeshInstance.tscn")
 const Greybox = preload("res://level/Greybox.gd")
 
 export var bake: bool = false setget set_bake
+export var unbake: bool = false setget set_unbake
 export var default_material: Material
 
 onready var bake_root: Spatial = get_node_or_null("_BakeRoot")
@@ -12,7 +13,7 @@ onready var bake_root: Spatial = get_node_or_null("_BakeRoot")
 var progress: int = 0
 var total_greyboxes: int = 0
 
-func bake() -> void:
+func clean() -> void:
 	bake_root = get_node_or_null("_BakeRoot")
 	if !bake_root:
 		bake_root = Spatial.new()
@@ -23,6 +24,9 @@ func bake() -> void:
 	for child in bake_root.get_children():
 		bake_root.remove_child(child)
 		child.queue_free()
+
+func bake() -> void:
+	clean()
 
 	progress = 0
 	total_greyboxes = count_greyboxes_recursive(self)
@@ -71,8 +75,28 @@ func bake_meshes_recursive(node: Spatial) -> void:
 			if result != OK:
 				print_debug("UV2 unwrap failed for", array_mesh, ":", result)
 
+func unbake() -> void:
+	clean()
+	var count: int = unbake_meshes_recursive(self)
+	print("Unbaked %d Greyboxes" % count)
+
+func unbake_meshes_recursive(node: Spatial) -> int:
+	var count: int = 0
+	for child in node.get_children():
+		count += unbake_meshes_recursive(child)
+		if child is Greybox:
+			child.set_baked(false)
+			count += 1
+	return count
+
 func set_bake(value: bool) -> void:
 	if !Engine.editor_hint:
 		return
 	if value:
 		bake()
+
+func set_unbake(value: bool) -> void:
+	if !Engine.editor_hint:
+		return
+	if value:
+		unbake()
