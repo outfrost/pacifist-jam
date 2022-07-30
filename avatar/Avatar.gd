@@ -44,32 +44,62 @@ func _process(delta: float) -> void:
 	DebugOverlay.display("xz_speed %.1f" % Vector2(velocity.x, velocity.z).length())
 
 func _physics_process(delta: float) -> void:
-	var target_xz_velocity: Vector2 = Vector2(
+	var target_xz_dir: Vector2 = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_back") - Input.get_action_strength("move_forward")
-	).clamped(1.0) * SPEED
+	).clamped(1.0)
+	target_xz_dir = target_xz_dir.rotated(- rotation.y)
+	var target_xz_velocity: Vector2 = target_xz_dir * SPEED
 
-	target_xz_velocity = target_xz_velocity.rotated(- rotation.y)
 	var xz_velocity: Vector2 = Vector2(velocity.x, velocity.z)
+	var xz_speed: float = xz_velocity.length()
 
-	if !is_on_floor():
+	# acceleration shenanigans
+#	if !is_on_floor():
+#		var speedup = max(xz_velocity.normalized().dot(target_xz_dir), 0.0)
+#		speedup *= - (speedup * speedup) + speedup
+#		speedup *= 0.05
+#		if xz_speed > SPEED:
+#			speedup *= sqrt(xz_speed)
+#		target_xz_velocity *= speedup
+#
+#	if xz_speed > SPEED:
+#		speedup /= 0.8 * xz_speed / SPEED
+#	DebugOverlay.display("speedup %.4f" % speedup)
+	xz_velocity = xz_velocity.move_toward(target_xz_velocity, ACCEL * delta)
+#	xz_velocity *= 1.0 + speedup
+#	if is_on_floor():
+#		xz_velocity = xz_velocity.move_toward(xz_velocity.clamped(SPEED), ACCEL * delta)
+
+#	var speedup = max(xz_velocity.normalized().dot(target_xz_dir), 0.0)
+#	speedup *= - (speedup * speedup) + speedup
+#	speedup *= 0.1
+#	if xz_speed > SPEED:
+#		speedup /= 0.8 * xz_speed / SPEED
+#	DebugOverlay.display("speedup %.4f" % speedup)
+#	xz_velocity = xz_velocity.move_toward(target_xz_velocity, ACCEL * delta)
+#	xz_velocity *= 1.0 + speedup
+#	if is_on_floor():
+#		xz_velocity = xz_velocity.move_toward(xz_velocity.clamped(SPEED), ACCEL * delta)
+
+#	if !is_on_floor():
 		# airborne shenanigans
-		var delta_dir: Vector2 = (
-			target_xz_velocity
-			- project(target_xz_velocity, xz_velocity)
-		)
-		if delta_dir.length_squared() != 0.0:
-			delta_dir = delta_dir.normalized()
-		var step: Vector2 = delta_dir * ACCEL * delta
-		var ref: Vector2 = xz_velocity - project(xz_velocity, target_xz_velocity)
-		var step_proj: Vector2 = project(step, ref)
-		var step_proj_len: float = step.length()
-		var ref_len: float = ref.length()
-		if step_proj_len > ref_len && step_proj_len != 0.0:
-			step *= ref_len / step_proj_len
-		xz_velocity += step
+#		var delta_dir: Vector2 = (
+#			target_xz_velocity
+#			- project(target_xz_velocity, xz_velocity)
+#		)
+#		if delta_dir.length_squared() != 0.0:
+#			delta_dir = delta_dir.normalized()
+#		var step: Vector2 = delta_dir * ACCEL * delta
+#		var ref: Vector2 = xz_velocity - project(xz_velocity, target_xz_velocity)
+#		var step_proj: Vector2 = project(step, ref)
+#		var step_proj_len: float = step.length()
+#		var ref_len: float = ref.length()
+#		if step_proj_len > ref_len && step_proj_len != 0.0:
+#			step *= ref_len / step_proj_len
+#		xz_velocity += step
 
-	else:
+#	else:
 		# slerp
 #		var v_dir: Vector2 = xz_velocity.normalized()
 #		var target_dir: Vector2 = target_xz_velocity.normalized()
@@ -83,12 +113,7 @@ func _physics_process(delta: float) -> void:
 #		xz_velocity = dir * move_toward(cur_speed, target_speed, ACCEL * delta)
 
 		# lerp
-		var xz_velocity_delta: Vector2 = target_xz_velocity - xz_velocity
 #		xz_velocity = xz_velocity.move_toward(target_xz_velocity, ACCEL * delta)
-#		xz_velocity += xz_velocity_delta * min(xz_velocity_delta.length(), ACCEL * delta)
-
-		xz_velocity += xz_velocity_delta * ACCEL * delta
-		xz_velocity = xz_velocity.clamped(SPEED)
 
 	velocity.x = xz_velocity.x
 	velocity.z = xz_velocity.y
