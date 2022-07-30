@@ -10,154 +10,154 @@
 [ext_resource path="res://level/BakedMeshInstance.tscn" type="PackedScene" id=8]
 [ext_resource path="res://level/Level.lmbake" type="BakedLightmapData" id=9]
 
-[sub_resource type="BoxShape" id=189]
+[sub_resource type="BoxShape" id=240]
 extents = Vector3( 128.5, 1, 128 )
 
-[sub_resource type="BoxShape" id=91]
+[sub_resource type="BoxShape" id=241]
 extents = Vector3( 4, 10, 5 )
 
-[sub_resource type="BoxShape" id=92]
+[sub_resource type="BoxShape" id=242]
 extents = Vector3( 0.4, 0.7, 4 )
 
-[sub_resource type="BoxShape" id=93]
+[sub_resource type="BoxShape" id=243]
 extents = Vector3( 0.1, 1, 0.25 )
 
-[sub_resource type="BoxShape" id=94]
+[sub_resource type="BoxShape" id=244]
 extents = Vector3( 0.1, 1, 0.25 )
 
-[sub_resource type="BoxShape" id=95]
+[sub_resource type="BoxShape" id=245]
 extents = Vector3( 0.1, 1, 0.25 )
 
-[sub_resource type="BoxShape" id=96]
+[sub_resource type="BoxShape" id=246]
 extents = Vector3( 0.1, 0.2, 4 )
 
-[sub_resource type="BoxShape" id=97]
+[sub_resource type="BoxShape" id=247]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=98]
+[sub_resource type="BoxShape" id=248]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=99]
+[sub_resource type="BoxShape" id=249]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=100]
+[sub_resource type="BoxShape" id=250]
 extents = Vector3( 0.1, 0.2, 4 )
 
-[sub_resource type="BoxShape" id=101]
+[sub_resource type="BoxShape" id=251]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=102]
+[sub_resource type="BoxShape" id=252]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=103]
+[sub_resource type="BoxShape" id=253]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=104]
+[sub_resource type="BoxShape" id=254]
 extents = Vector3( 0.1, 0.2, 4 )
 
-[sub_resource type="BoxShape" id=105]
+[sub_resource type="BoxShape" id=255]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=106]
+[sub_resource type="BoxShape" id=256]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=107]
+[sub_resource type="BoxShape" id=257]
 extents = Vector3( 0.1, 0.3, 0.25 )
 
-[sub_resource type="BoxShape" id=108]
+[sub_resource type="BoxShape" id=258]
 extents = Vector3( 0.1, 0.2, 4 )
 
-[sub_resource type="BoxShape" id=109]
+[sub_resource type="BoxShape" id=259]
 extents = Vector3( 7, 8, 5 )
 
-[sub_resource type="BoxShape" id=110]
+[sub_resource type="BoxShape" id=260]
 extents = Vector3( 6, 3, 10 )
 
-[sub_resource type="BoxShape" id=111]
+[sub_resource type="BoxShape" id=261]
 extents = Vector3( 4.5, 5, 10 )
 
-[sub_resource type="BoxShape" id=112]
+[sub_resource type="BoxShape" id=262]
 extents = Vector3( 1.5, 0.2, 10 )
 
-[sub_resource type="BoxShape" id=113]
+[sub_resource type="BoxShape" id=263]
 extents = Vector3( 1.5, 0.2, 10 )
 
-[sub_resource type="BoxShape" id=114]
+[sub_resource type="BoxShape" id=264]
 extents = Vector3( 1.5, 0.5, 0.1 )
 
-[sub_resource type="BoxShape" id=115]
+[sub_resource type="BoxShape" id=265]
 extents = Vector3( 0.25, 1.5, 0.1 )
 
-[sub_resource type="BoxShape" id=116]
+[sub_resource type="BoxShape" id=266]
 extents = Vector3( 1.5, 0.5, 0.1 )
 
-[sub_resource type="BoxShape" id=117]
+[sub_resource type="BoxShape" id=267]
 extents = Vector3( 0.25, 1.05, 0.1 )
 
-[sub_resource type="BoxShape" id=118]
+[sub_resource type="BoxShape" id=268]
 extents = Vector3( 1.5, 2, 0.1 )
 
-[sub_resource type="BoxShape" id=119]
+[sub_resource type="BoxShape" id=269]
 extents = Vector3( 1.5, 2, 0.1 )
 
-[sub_resource type="BoxShape" id=120]
+[sub_resource type="BoxShape" id=270]
 extents = Vector3( 7, 10, 7 )
 
-[sub_resource type="BoxShape" id=121]
+[sub_resource type="BoxShape" id=271]
 extents = Vector3( 7, 10, 7 )
 
-[sub_resource type="BoxShape" id=122]
+[sub_resource type="BoxShape" id=272]
 extents = Vector3( 4.5, 5, 4 )
 
-[sub_resource type="BoxShape" id=123]
+[sub_resource type="BoxShape" id=273]
 extents = Vector3( 4.5, 7, 4 )
 
-[sub_resource type="BoxShape" id=124]
+[sub_resource type="BoxShape" id=274]
 extents = Vector3( 0.15, 0.1, 1 )
 
-[sub_resource type="BoxShape" id=125]
+[sub_resource type="BoxShape" id=275]
 extents = Vector3( 0.15, 0.1, 0.85 )
 
-[sub_resource type="BoxShape" id=126]
+[sub_resource type="BoxShape" id=276]
 extents = Vector3( 0.15, 0.1, 1 )
 
-[sub_resource type="BoxShape" id=127]
+[sub_resource type="BoxShape" id=277]
 extents = Vector3( 0.15, 0.1, 0.85 )
 
-[sub_resource type="BoxShape" id=128]
+[sub_resource type="BoxShape" id=278]
 extents = Vector3( 4.5, 7.5, 3.25 )
 
-[sub_resource type="BoxShape" id=129]
+[sub_resource type="BoxShape" id=279]
 extents = Vector3( 1.5, 8, 2.8 )
 
-[sub_resource type="BoxShape" id=130]
+[sub_resource type="BoxShape" id=280]
 extents = Vector3( 0.75, 0.05, 2.5 )
 
-[sub_resource type="BoxShape" id=131]
+[sub_resource type="BoxShape" id=281]
 extents = Vector3( 0.75, 0.05, 4.05 )
 
-[sub_resource type="BoxShape" id=132]
+[sub_resource type="BoxShape" id=282]
 extents = Vector3( 0.75, 0.05, 2.5 )
 
-[sub_resource type="BoxShape" id=133]
+[sub_resource type="BoxShape" id=283]
 extents = Vector3( 1.75, 0.05, 0.5 )
 
-[sub_resource type="BoxShape" id=134]
+[sub_resource type="BoxShape" id=284]
 extents = Vector3( 1.75, 0.05, 0.5 )
 
-[sub_resource type="BoxShape" id=135]
+[sub_resource type="BoxShape" id=285]
 extents = Vector3( 0.75, 0.05, 6.5 )
 
-[sub_resource type="BoxShape" id=136]
+[sub_resource type="BoxShape" id=286]
 extents = Vector3( 0.3, 0.05, 3.75 )
 
-[sub_resource type="BoxShape" id=137]
+[sub_resource type="BoxShape" id=287]
 extents = Vector3( 2, 0.05, 0.6 )
 
-[sub_resource type="BoxShape" id=138]
+[sub_resource type="BoxShape" id=288]
 extents = Vector3( 3, 0.05, 0.6 )
 
-[sub_resource type="BoxShape" id=139]
+[sub_resource type="BoxShape" id=289]
 extents = Vector3( 0.1, 5.25, 0.1 )
 
 [sub_resource type="ArrayMesh" id=190]
@@ -935,7 +935,7 @@ default_material = ExtResource( 7 )
 
 [node name="Ground" parent="BakedGeometry" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -16 )
-shape = SubResource( 189 )
+shape = SubResource( 240 )
 extents = Vector3( 128.5, 1, 128 )
 material = ExtResource( 3 )
 baked = true
@@ -944,235 +944,235 @@ baked = true
 
 [node name="Greybox" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.8, 10, -1.5 )
-shape = SubResource( 91 )
+shape = SubResource( 241 )
 extents = Vector3( 4, 10, 5 )
 baked = true
 
 [node name="Greybox3" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, -1.3, -1 )
-shape = SubResource( 92 )
+shape = SubResource( 242 )
 extents = Vector3( 0.4, 0.7, 4 )
 baked = true
 
 [node name="Greybox4" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, -4.75 )
-shape = SubResource( 93 )
+shape = SubResource( 243 )
 extents = Vector3( 0.1, 1, 0.25 )
 baked = true
 
 [node name="Greybox5" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, 2.75 )
-shape = SubResource( 94 )
+shape = SubResource( 244 )
 extents = Vector3( 0.1, 1, 0.25 )
 baked = true
 
 [node name="Greybox10" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 0.4, -1 )
-shape = SubResource( 95 )
+shape = SubResource( 245 )
 extents = Vector3( 0.1, 1, 0.25 )
 baked = true
 
 [node name="Greybox6" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 1.6, -1 )
-shape = SubResource( 96 )
+shape = SubResource( 246 )
 extents = Vector3( 0.1, 0.2, 4 )
 baked = true
 
 [node name="Greybox7" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, -4.75 )
-shape = SubResource( 97 )
+shape = SubResource( 247 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox8" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, 2.75 )
-shape = SubResource( 98 )
+shape = SubResource( 248 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox11" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.1, -1 )
-shape = SubResource( 99 )
+shape = SubResource( 249 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox9" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 2.6, -1 )
-shape = SubResource( 100 )
+shape = SubResource( 250 )
 extents = Vector3( 0.1, 0.2, 4 )
 baked = true
 
 [node name="Greybox12" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, -4.75 )
-shape = SubResource( 101 )
+shape = SubResource( 251 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox13" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, 2.75 )
-shape = SubResource( 102 )
+shape = SubResource( 252 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox14" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.1, -1 )
-shape = SubResource( 103 )
+shape = SubResource( 253 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox15" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 3.6, -1 )
-shape = SubResource( 104 )
+shape = SubResource( 254 )
 extents = Vector3( 0.1, 0.2, 4 )
 baked = true
 
 [node name="Greybox16" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, -4.75 )
-shape = SubResource( 105 )
+shape = SubResource( 255 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox17" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, 2.75 )
-shape = SubResource( 106 )
+shape = SubResource( 256 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox18" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.1, -1 )
-shape = SubResource( 107 )
+shape = SubResource( 257 )
 extents = Vector3( 0.1, 0.3, 0.25 )
 baked = true
 
 [node name="Greybox19" parent="BakedGeometry/Buildings/Greybox" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1, 4.6, -1 )
-shape = SubResource( 108 )
+shape = SubResource( 258 )
 extents = Vector3( 0.1, 0.2, 4 )
 baked = true
 
 [node name="Greybox3" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 8, -1 )
-shape = SubResource( 109 )
+shape = SubResource( 259 )
 extents = Vector3( 7, 8, 5 )
 baked = true
 
 [node name="Greybox4" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 3, -18.5 )
-shape = SubResource( 110 )
+shape = SubResource( 260 )
 extents = Vector3( 6, 3, 10 )
 baked = true
 
 [node name="Greybox10" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 11, -18.5 )
-shape = SubResource( 111 )
+shape = SubResource( 261 )
 extents = Vector3( 4.5, 5, 10 )
 baked = true
 
 [node name="Greybox14" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.2, -18.5 )
-shape = SubResource( 112 )
+shape = SubResource( 262 )
 extents = Vector3( 1.5, 0.2, 10 )
 baked = true
 
 [node name="Greybox15" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 13.7, -18.5 )
-shape = SubResource( 113 )
+shape = SubResource( 263 )
 extents = Vector3( 1.5, 0.2, 10 )
 baked = true
 
 [node name="Greybox11" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 6.5, -18.5 )
-shape = SubResource( 114 )
+shape = SubResource( 264 )
 extents = Vector3( 1.5, 0.5, 0.1 )
 baked = true
 
 [node name="Greybox17" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 8.5, -18.5 )
-shape = SubResource( 115 )
+shape = SubResource( 265 )
 extents = Vector3( 0.25, 1.5, 0.1 )
 baked = true
 
 [node name="Greybox18" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.9, -18.5 )
-shape = SubResource( 116 )
+shape = SubResource( 266 )
 extents = Vector3( 1.5, 0.5, 0.1 )
 baked = true
 
 [node name="Greybox19" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 12.45, -18.5 )
-shape = SubResource( 117 )
+shape = SubResource( 267 )
 extents = Vector3( 0.25, 1.05, 0.1 )
 baked = true
 
 [node name="Greybox12" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -8.6 )
-shape = SubResource( 118 )
+shape = SubResource( 268 )
 extents = Vector3( 1.5, 2, 0.1 )
 baked = true
 
 [node name="Greybox13" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -28.4 )
-shape = SubResource( 119 )
+shape = SubResource( 269 )
 extents = Vector3( 1.5, 2, 0.1 )
 baked = true
 
 [node name="Greybox5" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 10, -35.5 )
-shape = SubResource( 120 )
+shape = SubResource( 270 )
 extents = Vector3( 7, 10, 7 )
 baked = true
 
 [node name="Greybox6" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 10, -36 )
-shape = SubResource( 121 )
+shape = SubResource( 271 )
 extents = Vector3( 7, 10, 7 )
 baked = true
 
 [node name="Greybox7" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 5, -20.1 )
-shape = SubResource( 122 )
+shape = SubResource( 272 )
 extents = Vector3( 4.5, 5, 4 )
 baked = true
 
 [node name="Greybox8" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 7, -18 )
-shape = SubResource( 123 )
+shape = SubResource( 273 )
 extents = Vector3( 4.5, 7, 4 )
 baked = true
 
 [node name="Greybox20" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 10.5, -22.95 )
-shape = SubResource( 124 )
+shape = SubResource( 274 )
 extents = Vector3( 0.15, 0.1, 1 )
 baked = true
 
 [node name="Greybox21" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 10.5, -23.8 )
-shape = SubResource( 125 )
+shape = SubResource( 275 )
 extents = Vector3( 0.15, 0.1, 0.85 )
 baked = true
 
 [node name="Greybox22" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 3.5, -22.95 )
-shape = SubResource( 126 )
+shape = SubResource( 276 )
 extents = Vector3( 0.15, 0.1, 1 )
 baked = true
 
 [node name="Greybox23" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 3.5, -23.8 )
-shape = SubResource( 127 )
+shape = SubResource( 277 )
 extents = Vector3( 0.15, 0.1, 0.85 )
 baked = true
 
 [node name="Greybox16" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 7.5, -10.75 )
-shape = SubResource( 128 )
+shape = SubResource( 278 )
 extents = Vector3( 4.5, 7.5, 3.25 )
 baked = true
 
 [node name="Greybox9" parent="BakedGeometry/Buildings" instance=ExtResource( 1 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 4.05, 8, -21.05 )
-shape = SubResource( 129 )
+shape = SubResource( 279 )
 extents = Vector3( 1.5, 8, 2.8 )
 baked = true
 
@@ -1180,63 +1180,63 @@ baked = true
 
 [node name="Greybox2" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 8, -1.1 )
-shape = SubResource( 130 )
+shape = SubResource( 280 )
 extents = Vector3( 0.75, 0.05, 2.5 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox4" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 14, -17.95 )
-shape = SubResource( 131 )
+shape = SubResource( 281 )
 extents = Vector3( 0.75, 0.05, 4.05 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox7" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 6, -16.4 )
-shape = SubResource( 132 )
+shape = SubResource( 282 )
 extents = Vector3( 0.75, 0.05, 2.5 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox5" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 14, -13.4 )
-shape = SubResource( 133 )
+shape = SubResource( 283 )
 extents = Vector3( 1.75, 0.05, 0.5 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox8" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 6, -13.4 )
-shape = SubResource( 134 )
+shape = SubResource( 284 )
 extents = Vector3( 1.75, 0.05, 0.5 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox3" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.65, 13.7, -8.6 )
-shape = SubResource( 135 )
+shape = SubResource( 285 )
 extents = Vector3( 0.75, 0.05, 6.5 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox6" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -0.75, 5.95, -8.9 )
-shape = SubResource( 136 )
+shape = SubResource( 286 )
 extents = Vector3( 0.3, 0.05, 3.75 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox9" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.65, 9.5, -28.3 )
-shape = SubResource( 137 )
+shape = SubResource( 287 )
 extents = Vector3( 2, 0.05, 0.6 )
 material = ExtResource( 2 )
 baked = true
 
 [node name="Greybox10" parent="BakedGeometry/Platforms" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65, 4, -28.3 )
-shape = SubResource( 138 )
+shape = SubResource( 288 )
 extents = Vector3( 3, 0.05, 0.6 )
 material = ExtResource( 2 )
 baked = true
@@ -1245,321 +1245,271 @@ baked = true
 
 [node name="Greybox" parent="BakedGeometry/Handlebars" instance=ExtResource( 1 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1.25, 5.2, -23.8 )
-shape = SubResource( 139 )
+shape = SubResource( 289 )
 extents = Vector3( 0.1, 5.25, 0.1 )
 material = ExtResource( 4 )
 baked = true
 
 [node name="_BakeRoot" type="Spatial" parent="BakedGeometry"]
 
-[node name="BakedMeshInstance" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -16 )
 material_override = ExtResource( 3 )
-use_in_baked_light = true
 mesh = SubResource( 190 )
 material/0 = null
 
-[node name="BakedMeshInstance2" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance2" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4, 8.7, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 191 )
 material/0 = null
 
-[node name="BakedMeshInstance3" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance3" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, -6.25 )
-use_in_baked_light = true
 mesh = SubResource( 192 )
 material/0 = null
 
-[node name="BakedMeshInstance4" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance4" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, 1.25 )
-use_in_baked_light = true
 mesh = SubResource( 193 )
 material/0 = null
 
-[node name="BakedMeshInstance5" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance5" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 10.4, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 194 )
 material/0 = null
 
-[node name="BakedMeshInstance6" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance6" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 11.6, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 195 )
 material/0 = null
 
-[node name="BakedMeshInstance7" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance7" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, -6.25 )
-use_in_baked_light = true
 mesh = SubResource( 196 )
 material/0 = null
 
-[node name="BakedMeshInstance8" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance8" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, 1.25 )
-use_in_baked_light = true
 mesh = SubResource( 197 )
 material/0 = null
 
-[node name="BakedMeshInstance9" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance9" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.1, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 198 )
 material/0 = null
 
-[node name="BakedMeshInstance10" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance10" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 12.6, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 199 )
 material/0 = null
 
-[node name="BakedMeshInstance11" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance11" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, -6.25 )
-use_in_baked_light = true
 mesh = SubResource( 200 )
 material/0 = null
 
-[node name="BakedMeshInstance12" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance12" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, 1.25 )
-use_in_baked_light = true
 mesh = SubResource( 201 )
 material/0 = null
 
-[node name="BakedMeshInstance13" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance13" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.1, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 202 )
 material/0 = null
 
-[node name="BakedMeshInstance14" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance14" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 13.6, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 203 )
 material/0 = null
 
-[node name="BakedMeshInstance15" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance15" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, -6.25 )
-use_in_baked_light = true
 mesh = SubResource( 204 )
 material/0 = null
 
-[node name="BakedMeshInstance16" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance16" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, 1.25 )
-use_in_baked_light = true
 mesh = SubResource( 205 )
 material/0 = null
 
-[node name="BakedMeshInstance17" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance17" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.1, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 206 )
 material/0 = null
 
-[node name="BakedMeshInstance18" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance18" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7, 14.6, -2.5 )
-use_in_baked_light = true
 mesh = SubResource( 207 )
 material/0 = null
 
-[node name="BakedMeshInstance19" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance19" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.8, 10, -1.5 )
-use_in_baked_light = true
 mesh = SubResource( 208 )
 material/0 = null
 
-[node name="BakedMeshInstance20" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance20" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 8, -1 )
-use_in_baked_light = true
 mesh = SubResource( 209 )
 material/0 = null
 
-[node name="BakedMeshInstance21" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance21" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 3, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 210 )
 material/0 = null
 
-[node name="BakedMeshInstance22" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance22" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 11, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 211 )
 material/0 = null
 
-[node name="BakedMeshInstance23" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance23" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.2, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 212 )
 material/0 = null
 
-[node name="BakedMeshInstance24" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance24" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 13.7, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 213 )
 material/0 = null
 
-[node name="BakedMeshInstance25" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance25" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 6.5, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 214 )
 material/0 = null
 
-[node name="BakedMeshInstance26" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance26" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 8.5, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 215 )
 material/0 = null
 
-[node name="BakedMeshInstance27" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance27" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 10.9, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 216 )
 material/0 = null
 
-[node name="BakedMeshInstance28" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance28" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25, 12.45, -18.5 )
-use_in_baked_light = true
 mesh = SubResource( 217 )
 material/0 = null
 
-[node name="BakedMeshInstance29" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance29" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -8.6 )
-use_in_baked_light = true
 mesh = SubResource( 218 )
 material/0 = null
 
-[node name="BakedMeshInstance30" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance30" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 8, -28.4 )
-use_in_baked_light = true
 mesh = SubResource( 219 )
 material/0 = null
 
-[node name="BakedMeshInstance31" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance31" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 10, -35.5 )
-use_in_baked_light = true
 mesh = SubResource( 220 )
 material/0 = null
 
-[node name="BakedMeshInstance32" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance32" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 10, -36 )
-use_in_baked_light = true
 mesh = SubResource( 221 )
 material/0 = null
 
-[node name="BakedMeshInstance33" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance33" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 5, -20.1 )
-use_in_baked_light = true
 mesh = SubResource( 222 )
 material/0 = null
 
-[node name="BakedMeshInstance34" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance34" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 7, -18 )
-use_in_baked_light = true
 mesh = SubResource( 223 )
 material/0 = null
 
-[node name="BakedMeshInstance35" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance35" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 10.5, -22.95 )
-use_in_baked_light = true
 mesh = SubResource( 224 )
 material/0 = null
 
-[node name="BakedMeshInstance36" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance36" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 10.5, -23.8 )
-use_in_baked_light = true
 mesh = SubResource( 225 )
 material/0 = null
 
-[node name="BakedMeshInstance37" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance37" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25, 3.5, -22.95 )
-use_in_baked_light = true
 mesh = SubResource( 226 )
 material/0 = null
 
-[node name="BakedMeshInstance38" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance38" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.25, 3.5, -23.8 )
-use_in_baked_light = true
 mesh = SubResource( 227 )
 material/0 = null
 
-[node name="BakedMeshInstance39" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance39" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 7.5, -10.75 )
-use_in_baked_light = true
 mesh = SubResource( 228 )
 material/0 = null
 
-[node name="BakedMeshInstance40" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance40" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 4.05, 8, -21.05 )
-use_in_baked_light = true
 mesh = SubResource( 229 )
 material/0 = null
 
-[node name="BakedMeshInstance41" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance41" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 8, -1.1 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 230 )
 material/0 = null
 
-[node name="BakedMeshInstance42" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance42" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 14, -17.95 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 231 )
 material/0 = null
 
-[node name="BakedMeshInstance43" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance43" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 6, -16.4 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 232 )
 material/0 = null
 
-[node name="BakedMeshInstance44" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance44" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 14, -13.4 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 233 )
 material/0 = null
 
-[node name="BakedMeshInstance45" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance45" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 6, -13.4 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 234 )
 material/0 = null
 
-[node name="BakedMeshInstance46" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance46" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.65, 13.7, -8.6 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 235 )
 material/0 = null
 
-[node name="BakedMeshInstance47" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance47" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -0.75, 5.95, -8.9 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 236 )
 material/0 = null
 
-[node name="BakedMeshInstance48" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance48" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.65, 9.5, -28.3 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 237 )
 material/0 = null
 
-[node name="BakedMeshInstance49" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance49" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65, 4, -28.3 )
 material_override = ExtResource( 2 )
-use_in_baked_light = true
 mesh = SubResource( 238 )
 material/0 = null
 
-[node name="BakedMeshInstance50" type="MeshInstance" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
+[node name="BakedMeshInstance50" parent="BakedGeometry/_BakeRoot" instance=ExtResource( 8 )]
 transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1.25, 5.2, -23.8 )
 material_override = ExtResource( 4 )
-use_in_baked_light = true
 mesh = SubResource( 239 )
 material/0 = null
 
