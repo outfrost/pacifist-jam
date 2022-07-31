@@ -61,30 +61,31 @@ align = 1
 
 [node name="SfxSteps1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
-volume_db = -6.0
+volume_db = -4.0
 
 [node name="SfxSteps2" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
-volume_db = -6.0
+volume_db = -4.0
 
 [node name="SfxSteps3" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
-volume_db = -6.0
+volume_db = -4.0
 
 [node name="SfxSteps4" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )
-volume_db = -6.0
+volume_db = -4.0
 
 [node name="SfxJump" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
-volume_db = 3.0
+volume_db = 7.0
 
 [node name="SfxLand" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 10 )
+volume_db = 1.0
 
 [node name="SfxFlip" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
-volume_db = -3.0
+volume_db = -2.0
 
 [node name="SfxWindLoop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 11 )

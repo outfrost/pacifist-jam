@@ -4,6 +4,7 @@ const AVATAR_SCENE = preload("res://avatar/Avatar.tscn")
 
 onready var spawn_point = $SpawnPoint
 onready var menu_camera = $MenuCamera
+onready var music = $Music
 
 var avatar
 var active: bool = false
@@ -16,10 +17,12 @@ func start() -> void:
 	menu_camera.current = false
 	yeet_avatar()
 	spawn_avatar()
+	music.play()
 	active = true
 
 func stop() -> void:
 	active = false
+	music.stop()
 	yeet_avatar()
 	menu_camera.current = true
 

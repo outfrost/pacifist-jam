@@ -16,7 +16,7 @@ const SPEEDUP_MULT: float = 8.0
 const FLIP_DURATION: float = 0.4
 const WIND_MIN_SPEED: float = 6.0
 const WIND_MAX_SPEED: float = 14.0
-const WIND_VOLUME_SCALE: float = 2.0
+const WIND_VOLUME_SCALE: float = 2.25
 
 onready var camera: Camera = $Camera
 onready var speedometer = $Speedometer
