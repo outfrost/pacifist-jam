@@ -23,6 +23,9 @@ func _ready() -> void:
 			debug.startup()
 
 	main_menu.connect("start_game", self, "on_start_game")
+	main_menu.get_node("MouseSensSlider").connect("value_changed", level, "mouse_sens_changed")
+	main_menu.get_node("MouseSensSlider").connect("value_changed", self, "mouse_sens_changed")
+	main_menu.get_node("VolumeSlider").connect("value_changed", self, "volume_changed")
 
 func _process(delta: float) -> void:
 	DebugOverlay.display("fps %d" % Performance.get_monitor(Performance.TIME_FPS))
@@ -39,3 +42,10 @@ func back_to_menu() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	level.stop()
 	main_menu.show()
+
+func volume_changed(value: float):
+	AudioServer.set_bus_volume_db(0, linear2db(value))
+	main_menu.get_node("VolumeEdit").text = "%.2f" % value
+
+func mouse_sens_changed(value: float):
+	main_menu.get_node("MouseSensEdit").text = "%.2f" % value

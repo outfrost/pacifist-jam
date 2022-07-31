@@ -30,7 +30,7 @@ onready var steps_sfx = [
 ]
 
 var gravity: float = 15.0
-var mouse_sens: float = 1.2
+var mouse_sens: float = 1.0
 var velocity: Vector3 = Vector3.ZERO
 var strafe_modifier: Vector2 = Vector2.ZERO
 var xz_velocity: Vector2 = Vector2.ZERO

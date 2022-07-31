@@ -12,9 +12,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource( 3 )
 script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Background" type="TextureRect" parent="."]
 anchor_right = 1.0
@@ -55,48 +52,37 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
-anchor_left = 0.4
-anchor_top = 0.5
-anchor_right = 0.6
+anchor_left = 0.5
+anchor_top = 0.6
+anchor_right = 0.5
 anchor_bottom = 0.9
+margin_left = -128.0
+margin_right = 128.0
 grow_horizontal = 2
 theme = ExtResource( 3 )
 custom_constants/separation = 10
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="PlayButton" type="Button" parent="VBoxContainer"]
 margin_right = 256.0
-margin_bottom = 22.0
+margin_bottom = 27.0
 text = "Play"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="OptionsButton" type="Button" parent="VBoxContainer"]
-margin_top = 32.0
-margin_right = 256.0
-margin_bottom = 54.0
-disabled = true
-text = "Options"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="CreditsButton" type="Button" parent="VBoxContainer"]
-margin_top = 64.0
+margin_top = 37.0
 margin_right = 256.0
-margin_bottom = 86.0
+margin_bottom = 64.0
 text = "Credits"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="QuitButton" type="Button" parent="VBoxContainer"]
-margin_top = 96.0
+margin_top = 74.0
 margin_right = 256.0
-margin_bottom = 118.0
+margin_bottom = 101.0
 text = "Quit"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -166,3 +152,77 @@ text = "Close"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -338.0
+margin_top = -113.0
+margin_right = -213.0
+margin_bottom = -94.0
+text = "Mouse sensitivity"
+
+[node name="MouseSensSlider" type="HSlider" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -340.0
+margin_top = -91.0
+margin_right = -112.0
+margin_bottom = -68.0
+max_value = 10.0
+step = 0.0
+value = 1.0
+scrollable = false
+
+[node name="MouseSensEdit" type="TextEdit" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -101.0
+margin_top = -96.0
+margin_right = -18.0
+margin_bottom = -68.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "1.0"
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -339.0
+margin_top = -62.0
+margin_right = -214.0
+margin_bottom = -43.0
+text = "Volume"
+
+[node name="VolumeSlider" type="HSlider" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -340.0
+margin_top = -41.0
+margin_right = -112.0
+margin_bottom = -17.0
+max_value = 1.0
+step = 0.0
+value = 0.5
+scrollable = false
+
+[node name="VolumeEdit" type="TextEdit" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -101.0
+margin_top = -46.0
+margin_right = -18.0
+margin_bottom = -18.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "0.5"
