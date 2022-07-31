@@ -71,7 +71,7 @@ func bake_meshes_recursive(node: Spatial) -> void:
 			child.mesh_instance.queue_free()
 			child.mesh_instance = null
 
-			var result = array_mesh.lightmap_unwrap(baked_instance.global_transform, 0.2)
+			var result = array_mesh.lightmap_unwrap(baked_instance.global_transform, 0.1)
 			if result != OK:
 				print_debug("UV2 unwrap failed for", array_mesh, ":", result)
 
