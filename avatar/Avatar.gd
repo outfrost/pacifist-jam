@@ -1,28 +1,93 @@
 extends KinematicBody
 
+enum MirrorState {
+	Normal,
+	FlippingPre,
+	FlippingPost,
+	Mirrored,
+	UnflippingPre,
+	UnflippingPost,
+}
+
 const SPEED: float = 5.0
 const ACCEL: float = 25.0
 const JUMP_SPEED: float = 7.0
-const GRAVITY: float = 15.0
 const SPEEDUP_MULT: float = 8.0
+const FLIP_DURATION: float = 0.4
 
 onready var camera: Camera = $Camera
 onready var speedometer = $Speedometer
+onready var flip_overlay: ColorRect = $FlipOverlay
 
+var gravity: float = 15.0
 var mouse_sens: float = 1.2
 var velocity: Vector3 = Vector3.ZERO
 var strafe_modifier: Vector2 = Vector2.ZERO
 var xz_velocity: Vector2 = Vector2.ZERO
 var xz_speed: float = 0.0
+var mirror_state = MirrorState.Normal
+var mirror_flip: float = 0.0
 
 func _ready() -> void:
-	pass
+	(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
 
 func _process(delta: float) -> void:
 	if OS.has_feature("debug"):
 		DebugOverlay.display("xz_speed %.1f" % Vector2(velocity.x, velocity.z).length())
 
+	match mirror_state:
+		MirrorState.Normal:
+			pass
+		MirrorState.FlippingPre:
+			mirror_flip += delta / FLIP_DURATION
+			if mirror_flip > 1.0:
+				mirror_flip = 1.0
+			if mirror_flip >= 0.5:
+				translate(Vector3(0.0, 1.75, 0.0))
+				rotation.z = 0.5 * TAU
+				camera.rotation.x = - camera.rotation.x
+				gravity = - gravity
+#				velocity.y = 0.0
+				velocity.y = - velocity.y * 0.7
+				mirror_state = MirrorState.FlippingPost
+			(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
+		MirrorState.FlippingPost:
+			mirror_flip += delta / FLIP_DURATION
+			if mirror_flip >= 1.0:
+				mirror_flip = 1.0
+				mirror_state = MirrorState.Mirrored
+			(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
+		MirrorState.Mirrored:
+			pass
+		MirrorState.UnflippingPre:
+			mirror_flip -= delta / FLIP_DURATION
+			if mirror_flip < 0.0:
+				mirror_flip = 0.0
+			if mirror_flip <= 0.5:
+				translate(Vector3(0.0, 1.75, 0.0))
+				rotation.z = 0.0
+				camera.rotation.x = - camera.rotation.x
+				gravity = - gravity
+#				velocity.y = 0.0
+				velocity.y = - velocity.y * 0.7
+				mirror_state = MirrorState.UnflippingPost
+			(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
+		MirrorState.UnflippingPost:
+			mirror_flip -= delta / FLIP_DURATION
+			if mirror_flip <= 0.0:
+				mirror_flip = 0.0
+				mirror_state = MirrorState.Normal
+			(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
+
 func _physics_process(delta: float) -> void:
+	if mirror_state in [
+		MirrorState.FlippingPre,
+		MirrorState.FlippingPost,
+		MirrorState.UnflippingPre,
+		MirrorState.UnflippingPost,
+	]:
+		return
+
 	var target_xz_dir: Vector2 = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_back") - Input.get_action_strength("move_forward")
@@ -72,11 +137,18 @@ func _physics_process(delta: float) -> void:
 
 	if !airborne:
 		if Input.is_action_just_pressed("jump"):
-			velocity.y = JUMP_SPEED
+			velocity.y = JUMP_SPEED * sign(gravity)
 
-	velocity.y -= GRAVITY * delta
+	if airborne:
+		if Input.is_action_just_pressed("mirror"):
+			if mirror_state == MirrorState.Normal:
+				mirror_state = MirrorState.FlippingPre
+			elif mirror_state == MirrorState.Mirrored:
+				mirror_state = MirrorState.UnflippingPre
 
-	velocity = move_and_slide(velocity, Vector3.UP)
+	velocity.y -= gravity * delta
+
+	velocity = move_and_slide(velocity, Vector3(0.0, gravity, 0.0).normalized())
 
 	xz_velocity = Vector2(velocity.x, velocity.z)
 	xz_speed = xz_velocity.length()
