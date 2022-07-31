@@ -14,6 +14,9 @@ const ACCEL: float = 25.0
 const JUMP_SPEED: float = 7.0
 const SPEEDUP_MULT: float = 8.0
 const FLIP_DURATION: float = 0.4
+const WIND_MIN_SPEED: float = 6.0
+const WIND_MAX_SPEED: float = 14.0
+const WIND_VOLUME_SCALE: float = 2.0
 
 onready var camera: Camera = $Camera
 onready var speedometer = $Speedometer
@@ -177,6 +180,10 @@ func _physics_process(delta: float) -> void:
 		steps_timer.start()
 	elif !steps_timer.is_stopped() && (airborne || xz_speed <= 0.5 * SPEED):
 		steps_timer.stop()
+
+	var xyz_speed: float = velocity.length()
+	$SfxWindLoop.volume_db = linear2db(
+		smoothstep(WIND_MIN_SPEED, WIND_MAX_SPEED, xyz_speed) * WIND_VOLUME_SCALE)
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
