@@ -1,14 +1,18 @@
 extends KinematicBody
 
 const SPEED: float = 5.0
-const ACCEL: float = 10.0
-const JUMP_SPEED: float = 6.0
-const GRAVITY: float = 10.0
+const ACCEL: float = 20.0
+const JUMP_SPEED: float = 7.0
+const GRAVITY: float = 15.0
 
 onready var camera: Camera = $Camera
+onready var speedometer = $Speedometer
 
 var mouse_sens: float = 1.2
 var velocity: Vector3 = Vector3.ZERO
+var strafe_modifier: Vector2 = Vector2.ZERO
+var xz_velocity: Vector2 = Vector2.ZERO
+var xz_speed: float = 0.0
 
 func _ready() -> void:
 #	var target_xz_velocity: Vector2 = Vector2(1.0, 1.0).clamped(1.0) * SPEED
@@ -41,7 +45,8 @@ func _ready() -> void:
 	pass
 
 func _process(delta: float) -> void:
-	DebugOverlay.display("xz_speed %.1f" % Vector2(velocity.x, velocity.z).length())
+	if OS.has_feature("debug"):
+		DebugOverlay.display("xz_speed %.1f" % Vector2(velocity.x, velocity.z).length())
 
 func _physics_process(delta: float) -> void:
 	var target_xz_dir: Vector2 = Vector2(
@@ -51,17 +56,38 @@ func _physics_process(delta: float) -> void:
 	target_xz_dir = target_xz_dir.rotated(- rotation.y)
 	var target_xz_velocity: Vector2 = target_xz_dir * SPEED
 
-	var xz_velocity: Vector2 = Vector2(velocity.x, velocity.z)
-	var xz_speed: float = xz_velocity.length()
-
 	# acceleration shenanigans
-#	if !is_on_floor():
-#		var speedup = max(xz_velocity.normalized().dot(target_xz_dir), 0.0)
-#		speedup *= - (speedup * speedup) + speedup
-#		speedup *= 0.05
-#		if xz_speed > SPEED:
-#			speedup *= sqrt(xz_speed)
-#		target_xz_velocity *= speedup
+	if !is_on_floor():
+		var v_dot = xz_velocity.normalized().dot(target_xz_dir)
+		var speedup: float = max(v_dot, 0.0)
+		speedup *= - (speedup * speedup) + speedup
+		speedup *= 12.0
+		var speed_ratio = xz_speed / SPEED
+		if speed_ratio > 1.0:
+			speedup /= speed_ratio # f(x) = 1/x
+		else:
+			speedup *= speed_ratio # f(x) = x
+
+		var perp: Vector2 = target_xz_velocity - project(target_xz_velocity, xz_velocity)
+		var perp_dot: float = 1.0
+		if strafe_modifier.length_squared() != 0.0:
+			perp_dot = strafe_modifier.normalized().dot(perp)
+		if perp_dot < 0.0:
+			perp_dot = 1.0
+			strafe_modifier = Vector2.ZERO
+		strafe_modifier += perp * perp_dot * delta
+		DebugOverlay.display("strafe_mod " + str(strafe_modifier))
+
+		speedup *= perp_dot * strafe_modifier.length()
+
+		DebugOverlay.display("speedup " + str(speedup))
+		target_xz_velocity *= 1.0 + speedup
+		var target_xz_speed: float = target_xz_velocity.length()
+		var accel_ratio: float = target_xz_speed / xz_speed if xz_speed != 0.0 else 1.0
+		if accel_ratio < v_dot:
+			target_xz_velocity *= v_dot / accel_ratio
+	else:
+		strafe_modifier = Vector2.ZERO
 #
 #	if xz_speed > SPEED:
 #		speedup /= 0.8 * xz_speed / SPEED
@@ -125,6 +151,11 @@ func _physics_process(delta: float) -> void:
 	velocity.y -= GRAVITY * delta
 
 	velocity = move_and_slide(velocity, Vector3.UP)
+
+	xz_velocity = Vector2(velocity.x, velocity.z)
+	xz_speed = xz_velocity.length()
+
+	speedometer.set_speed(xz_speed)
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
