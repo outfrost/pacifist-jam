@@ -34,6 +34,8 @@ var xz_velocity: Vector2 = Vector2.ZERO
 var xz_speed: float = 0.0
 var mirror_state = MirrorState.Normal
 var mirror_flip: float = 0.0
+var was_airborne: bool = false
+var last_y_velocity: float = 0.0
 
 func _ready() -> void:
 	(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
@@ -137,7 +139,9 @@ func _physics_process(delta: float) -> void:
 			target_xz_velocity *= v_dot / accel_ratio
 	else:
 		strafe_modifier = Vector2.ZERO
-#
+		if was_airborne && last_y_velocity < - JUMP_SPEED * 0.7:
+			$SfxLand.play()
+
 	xz_velocity = xz_velocity.move_toward(target_xz_velocity, ACCEL * delta)
 
 	velocity.x = xz_velocity.x
@@ -146,6 +150,7 @@ func _physics_process(delta: float) -> void:
 	if !airborne:
 		if Input.is_action_just_pressed("jump"):
 			velocity.y = JUMP_SPEED * sign(gravity)
+			$SfxJump.play()
 
 	if airborne:
 		if Input.is_action_just_pressed("mirror"):
@@ -155,6 +160,9 @@ func _physics_process(delta: float) -> void:
 				mirror_state = MirrorState.UnflippingPre
 
 	velocity.y -= gravity * delta
+
+	was_airborne = airborne
+	last_y_velocity = velocity.y
 
 	velocity = move_and_slide(velocity, Vector3(0.0, gravity, 0.0).normalized())
 
@@ -180,7 +188,6 @@ func _input(event: InputEvent) -> void:
 		camera.rotate_x(pitch_delta)
 
 func steps_timer_timeout() -> void:
-	print("foo")
 	var sfx = steps_sfx[randi() % 4]
 	sfx.play()
 
