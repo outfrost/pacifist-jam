@@ -9,8 +9,15 @@ onready var music = $Music
 var avatar
 var active: bool = false
 
+func _ready() -> void:
+	$DeathArea.connect("body_entered", self, "death_area_entered")
+
 func _unhandled_key_input(event: InputEventKey) -> void:
 	if event.is_action_pressed("restart_level"):
+		restart()
+
+func death_area_entered(body) -> void:
+	if body == avatar:
 		restart()
 
 func start() -> void:
@@ -32,7 +39,8 @@ func restart() -> void:
 
 func spawn_avatar() -> void:
 	avatar = AVATAR_SCENE.instance()
-	spawn_point.add_child(avatar)
+	add_child(avatar)
+	avatar.transform = spawn_point.transform
 	avatar.camera.current = true
 
 func yeet_avatar() -> void:
