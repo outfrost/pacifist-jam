@@ -32,7 +32,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Pacifist Jam"
+config/name="mirror.Neon"
 run/main_scene="res://game/splash/Splash.tscn"
 boot_splash/image="res://game/splash/empty.png"
 boot_splash/use_filter=false
