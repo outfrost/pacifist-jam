@@ -84,6 +84,7 @@ stream = ExtResource( 10 )
 
 [node name="SfxFlip" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
+volume_db = -3.0
 
 [node name="SfxWindLoop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 11 )

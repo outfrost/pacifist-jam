@@ -156,8 +156,10 @@ func _physics_process(delta: float) -> void:
 		if Input.is_action_just_pressed("mirror"):
 			if mirror_state == MirrorState.Normal:
 				mirror_state = MirrorState.FlippingPre
+				$SfxFlip.play()
 			elif mirror_state == MirrorState.Mirrored:
 				mirror_state = MirrorState.UnflippingPre
+				$SfxFlip.play()
 
 	velocity.y -= gravity * delta
 
