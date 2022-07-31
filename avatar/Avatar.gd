@@ -1,9 +1,10 @@
 extends KinematicBody
 
 const SPEED: float = 5.0
-const ACCEL: float = 20.0
+const ACCEL: float = 25.0
 const JUMP_SPEED: float = 7.0
 const GRAVITY: float = 15.0
+const SPEEDUP_MULT: float = 8.0
 
 onready var camera: Camera = $Camera
 onready var speedometer = $Speedometer
@@ -61,7 +62,7 @@ func _physics_process(delta: float) -> void:
 		var v_dot = xz_velocity.normalized().dot(target_xz_dir)
 		var speedup: float = max(v_dot, 0.0)
 		speedup *= - (speedup * speedup) + speedup
-		speedup *= 12.0
+		speedup *= SPEEDUP_MULT
 		var speed_ratio = xz_speed / SPEED
 		if speed_ratio > 1.0:
 			speedup /= speed_ratio # f(x) = 1/x
