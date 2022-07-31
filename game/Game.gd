@@ -14,6 +14,8 @@ onready var level = $Level
 var debug: Reference
 
 func _ready() -> void:
+	randomize()
+
 	if OS.has_feature("debug"):
 		var debug_script = load("res://debug.gd")
 		if debug_script:

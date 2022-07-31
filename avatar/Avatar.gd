@@ -18,6 +18,13 @@ const FLIP_DURATION: float = 0.4
 onready var camera: Camera = $Camera
 onready var speedometer = $Speedometer
 onready var flip_overlay: ColorRect = $FlipOverlay
+onready var steps_timer: Timer = $StepsTimer
+onready var steps_sfx = [
+	$SfxSteps1,
+	$SfxSteps2,
+	$SfxSteps3,
+	$SfxSteps4,
+]
 
 var gravity: float = 15.0
 var mouse_sens: float = 1.2
@@ -30,6 +37,7 @@ var mirror_flip: float = 0.0
 
 func _ready() -> void:
 	(flip_overlay.material as ShaderMaterial).set_shader_param("flip", mirror_flip)
+	steps_timer.connect("timeout", self, "steps_timer_timeout")
 
 func _process(delta: float) -> void:
 	if OS.has_feature("debug"):
@@ -155,6 +163,11 @@ func _physics_process(delta: float) -> void:
 
 	speedometer.set_speed(xz_speed)
 
+	if steps_timer.is_stopped() && !airborne && xz_speed > 0.5 * SPEED:
+		steps_timer.start()
+	elif !steps_timer.is_stopped() && (airborne || xz_speed <= 0.5 * SPEED):
+		steps_timer.stop()
+
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		var rotation = - event.relative / get_tree().root.size.y
@@ -165,6 +178,11 @@ func _input(event: InputEvent) -> void:
 			0.25 * TAU - camera.rotation.x
 		)
 		camera.rotate_x(pitch_delta)
+
+func steps_timer_timeout() -> void:
+	print("foo")
+	var sfx = steps_sfx[randi() % 4]
+	sfx.play()
 
 func project(v: Vector2, onto: Vector2) -> Vector2:
 	if onto.length_squared() == 0.0:

@@ -1,8 +1,12 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://avatar/Avatar.gd" type="Script" id=1]
 [ext_resource path="res://avatar/Speedometer.gd" type="Script" id=2]
 [ext_resource path="res://avatar/Mirror_overlay.shader" type="Shader" id=3]
+[ext_resource path="res://sound/SFX_Steps_3.wav" type="AudioStream" id=4]
+[ext_resource path="res://sound/SFX_Steps_2.wav" type="AudioStream" id=5]
+[ext_resource path="res://sound/SFX_Steps_1.wav" type="AudioStream" id=6]
+[ext_resource path="res://sound/SFX_Steps_4.wav" type="AudioStream" id=7]
 
 [sub_resource type="CylinderShape" id=1]
 radius = 0.25
@@ -50,3 +54,30 @@ anchor_right = 1.0
 margin_bottom = 14.0
 grow_horizontal = 2
 align = 1
+
+[node name="SfxSteps1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -6.0
+
+[node name="SfxSteps2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -6.0
+
+[node name="SfxSteps3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -6.0
+
+[node name="SfxSteps4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = -6.0
+
+[node name="SfxJump" type="AudioStreamPlayer" parent="."]
+
+[node name="SfxLand" type="AudioStreamPlayer" parent="."]
+
+[node name="SfxFlip" type="AudioStreamPlayer" parent="."]
+
+[node name="SfxWindLoop" type="AudioStreamPlayer" parent="."]
+
+[node name="StepsTimer" type="Timer" parent="."]
+wait_time = 0.28
